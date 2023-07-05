@@ -510,7 +510,7 @@
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
           <a href="" rel="noopener"><i class="fab fa-instagram"></i></a>
           <a
-            href="https://api.whatsapp.com/send?phone=081261461477"
+            onclick="redirWhatsapp()"
             target="_blank"
             class="instagram"
             rel="noopener"
@@ -537,5 +537,10 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function redirWhatsapp() {
+				window.location.href = "https://wa.me/+6281261461477"
+			}
+    </script>
   </body>
 </html>
